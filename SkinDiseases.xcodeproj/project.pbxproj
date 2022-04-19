@@ -13,6 +13,13 @@
 		403396CF27D6E5E100D88DE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403396CE27D6E5E100D88DE0 /* Preview Assets.xcassets */; };
 		403396D727D6E69000D88DE0 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 403396D627D6E69000D88DE0 /* SwiftyJSON */; };
 		403396DA27D6E6BD00D88DE0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 403396D927D6E6BD00D88DE0 /* Alamofire */; };
+		AA3D8DCF280DFDFF006B73C0 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D8DCE280DFDFF006B73C0 /* FormView.swift */; };
+		AA3D8DD2280E086D006B73C0 /* SwiftUIEKtensions in Frameworks */ = {isa = PBXBuildFile; productRef = AA3D8DD1280E086D006B73C0 /* SwiftUIEKtensions */; };
+		AA3D8DD4280E0886006B73C0 /* ContactDoctorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D8DD3280E0886006B73C0 /* ContactDoctorView.swift */; };
+		AA984D07280DF83A00747608 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984D06280DF83A00747608 /* LoginView.swift */; };
+		AA984D09280DF84A00747608 /* MultiTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984D08280DF84A00747608 /* MultiTabView.swift */; };
+		AA984D0B280DF85A00747608 /* CallAIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984D0A280DF85A00747608 /* CallAIView.swift */; };
+		AA984D0F280DFA3B00747608 /* WebViewCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA984D0E280DFA3B00747608 /* WebViewCore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +28,12 @@
 		403396C927D6E5D900D88DE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		403396CB27D6E5E100D88DE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403396CE27D6E5E100D88DE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA3D8DCE280DFDFF006B73C0 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		AA3D8DD3280E0886006B73C0 /* ContactDoctorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDoctorView.swift; sourceTree = "<group>"; };
+		AA984D06280DF83A00747608 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AA984D08280DF84A00747608 /* MultiTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTabView.swift; sourceTree = "<group>"; };
+		AA984D0A280DF85A00747608 /* CallAIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallAIView.swift; sourceTree = "<group>"; };
+		AA984D0E280DFA3B00747608 /* WebViewCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewCore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +42,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				403396D727D6E69000D88DE0 /* SwiftyJSON in Frameworks */,
+				AA3D8DD2280E086D006B73C0 /* SwiftUIEKtensions in Frameworks */,
 				403396DA27D6E6BD00D88DE0 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +71,12 @@
 			children = (
 				403396C727D6E5D800D88DE0 /* SkinDiseasesApp.swift */,
 				403396C927D6E5D900D88DE0 /* ContentView.swift */,
+				AA3D8DD3280E0886006B73C0 /* ContactDoctorView.swift */,
+				AA984D06280DF83A00747608 /* LoginView.swift */,
+				AA3D8DCE280DFDFF006B73C0 /* FormView.swift */,
+				AA984D08280DF84A00747608 /* MultiTabView.swift */,
+				AA984D0E280DFA3B00747608 /* WebViewCore.swift */,
+				AA984D0A280DF85A00747608 /* CallAIView.swift */,
 				403396CB27D6E5E100D88DE0 /* Assets.xcassets */,
 				403396CD27D6E5E100D88DE0 /* Preview Content */,
 			);
@@ -90,6 +110,7 @@
 			packageProductDependencies = (
 				403396D627D6E69000D88DE0 /* SwiftyJSON */,
 				403396D927D6E6BD00D88DE0 /* Alamofire */,
+				AA3D8DD1280E086D006B73C0 /* SwiftUIEKtensions */,
 			);
 			productName = SkinDiseases;
 			productReference = 403396C427D6E5D800D88DE0 /* SkinDiseases.app */;
@@ -122,6 +143,7 @@
 			packageReferences = (
 				403396D527D6E69000D88DE0 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				403396D827D6E6BD00D88DE0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AA3D8DD0280E086D006B73C0 /* XCRemoteSwiftPackageReference "SwiftUIEKtensions" */,
 			);
 			productRefGroup = 403396C527D6E5D800D88DE0 /* Products */;
 			projectDirPath = "";
@@ -149,7 +171,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA984D07280DF83A00747608 /* LoginView.swift in Sources */,
 				403396CA27D6E5D900D88DE0 /* ContentView.swift in Sources */,
+				AA3D8DCF280DFDFF006B73C0 /* FormView.swift in Sources */,
+				AA984D09280DF84A00747608 /* MultiTabView.swift in Sources */,
+				AA3D8DD4280E0886006B73C0 /* ContactDoctorView.swift in Sources */,
+				AA984D0B280DF85A00747608 /* CallAIView.swift in Sources */,
+				AA984D0F280DFA3B00747608 /* WebViewCore.swift in Sources */,
 				403396C827D6E5D800D88DE0 /* SkinDiseasesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,7 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkinDiseases/Preview Content\"";
-				DEVELOPMENT_TEAM = PUTG5X348Y;
+				DEVELOPMENT_TEAM = T4JB96P77H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -310,7 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkinDiseases/Preview Content\"";
-				DEVELOPMENT_TEAM = PUTG5X348Y;
+				DEVELOPMENT_TEAM = U4WHYADYH2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -371,6 +399,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		AA3D8DD0280E086D006B73C0 /* XCRemoteSwiftPackageReference "SwiftUIEKtensions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/EnesKaraosman/SwiftUIEKtensions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -383,6 +419,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 403396D827D6E6BD00D88DE0 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		AA3D8DD1280E086D006B73C0 /* SwiftUIEKtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA3D8DD0280E086D006B73C0 /* XCRemoteSwiftPackageReference "SwiftUIEKtensions" */;
+			productName = SwiftUIEKtensions;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
